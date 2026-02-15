@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PickSmart | Product</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="brand">
+    <img src="images/logo.jpg" alt="PickSmart Logo" class="logo">
+    
+    <div class="brand-text">
+      <h1>PickSmart</h1>
+      <p class="tagline">Smart Picks. Smarter Decisions.</p>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="products-page">
+
+<h1 class="page-title">Browse Products</h1>
+
+<div class="controls">
+
+<button onclick="filterProducts('all')">All</button>
+<button onclick="filterProducts('phone')">Phones</button>
+<button onclick="filterProducts('laptop')">Laptops</button>
+<button onclick="filterProducts('accessory')">Accessories</button>
+
+<input type="text" id="searchInput" placeholder="Search product..." onkeyup="searchProduct()">
+
+</div>
+
+<div class="layout">
+
+<aside class="filters">
+
+<h3>Filters</h3>
+
+<label>Category</label>
+<select>
+<option>All</option>
+<option>Electronics</option>
+<option>Laptops</option>
+<option>Accessories</option>
+</select>
+
+<label>Price Range</label>
+<select>
+<option>Any</option>
+<option>Under ₹1000</option>
+<option>₹1000 – ₹5000</option>
+<option>₹5000+</option>
+</select>
+
+<label>Rating</label>
+<select>
+<option>All</option>
+<option>4★ & above</option>
+<option>3★ & above</option>
+</select>
+
+<button class="filter-btn">Apply Filters</button>
+
+</aside>
+
+<section class="products-grid">
+
+<div class="product-card" data-category="phone">
+<img src="images/phone.jpg">
+<h3>Smartphone Pro</h3>
+<p>₹29,999</p>
+</div>
+
+<div class="product-card" data-category="laptop">
+<img src="images/laptop.jpg">
+<h3>Ultra Laptop</h3>
+<p>₹79,999</p>
+</div>
+
+<div class="product-card" data-category="accessory">
+<img src="images/headphones.jpg">
+<h3>Noise Headphones</h3>
+<p>₹4,999</p>
+</div>
+
+<div class="product-card" data-category="laptop">
+<img src="images/laptop2.jpg">
+<h3>Ultra Laptop</h3>
+<p>₹59,999</p>
+</div>
+
+<div class="product-card" data-category="phone">
+<img src="images/phone1.jpg">
+<h3>Budget Phone</h3>
+<p>₹9,999</p>
+</div>
+
+<div class="product-card" data-category="accessory">
+<img src="images/headphones2.jpg">
+<h3>Noise Headphones</h3>
+<p>₹2,999</p>
+</div>
+
+</section>
+
+</div>
+
+</main>
+
+<footer>
+<p>© 2026 PickSmart | Designed by Tejaswini</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
