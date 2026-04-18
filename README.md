@@ -1,6 +1,6 @@
-**#🔍 PickSmart**
+# PickSmart
 
-A responsive **product discovery website** designed to help users explore, search, and filter products efficiently through a clean and intuitive interface.
+🔍 PickSmart is a responsive **product discovery website** designed to help users explore, search, and filter products efficiently through a clean and intuitive interface.
 
 ---
 
@@ -25,6 +25,9 @@ Users can:
 * 📱 Fully responsive design
 
 ---
+
+## 🌐 Live Demo
+👉 https://tejaswini-1407.github.io/picksmart-website/
 
 ## 🛠️ Tech Stack
 
